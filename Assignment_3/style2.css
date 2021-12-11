@@ -1,0 +1,63 @@
+
+/*
+ @author: Elias Posluk
+ Student-id: AG3064
+ Uppgift: Assignment 3, CSS-style for assignment 5
+ Malmö University
+ Course: DA281A Web Development II - Client -
+ @date 22/11/2021
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   }
+   
+   form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(233, 169, 92);
+   }
+   
+   p {
+    margin-top: 2rem;
+    font-weight: 600;
+    }
+   
+   
+    input {
+    margin: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgb(233, 169, 92);
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    }
+    input:focus {
+    outline-color: rgb(233, 169, 92);
+    outline-width: 1px;
+    border: none;
+    }
+   
+   
+    button[type="submit"] {
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(233, 169, 92);
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all ease 0.1s;
+    }
+    button[type="submit"]:hover {
+    background-color: rgb(65, 45, 21);
+    color: white;
+    }

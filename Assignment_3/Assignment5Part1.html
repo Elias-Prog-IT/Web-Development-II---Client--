@@ -1,0 +1,65 @@
+<!--
+   @author: Elias Posluk
+   Student-id: AG3064
+   Uppgift: Assignment 5 part 1.html
+   Malmö University
+   Course: DA281A Web Development II - Client - 
+   @date 22/11/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Assignment 5.1</title>
+   </head>
+   <body>
+
+    <nav>
+		<ul>
+			<li>
+				<a class="active" href="index.html">Page 1</a>
+			</li>
+			<li>
+				<a href="Assignment2.html">Page 2</a>
+			</li>
+			<li>
+				<a href="Assignment3.html">Page 3</a>
+			</li>
+			<li>
+				<a href="Assignment4.html">Page 4</a>
+			</li>
+			<li>
+				<a href="Assignment5Part1.html">Page 5</a>
+			</li>
+			<li>
+				<a href="Assignment5Part2.html">Page 5.2</a>
+			</li>
+		</ul>
+	</nav>
+    <form action="" method="get" id="apply-for-pet">
+           <h2>Ansökan om att skaffa husdjur</h2>
+           <div>
+               <input type="text" name="firstname"> Förnamn<br>
+               <input type="text" name="lastname"> Efternamn<br>
+               <input type="text" name="age"> Ålder<br>
+               <input type="text" name="email"> Epost<br>
+           </div>
+       
+           <div id="pets">
+               <p>Typ av husdjur?</p>
+               <input type="radio" name="pet" value="dog"> Hund<br>
+               <input type="radio" name="pet" value="cat"> Katt<br>
+               <input type="radio" name="pet" value="fish"> Fisk<br>
+               <input type="radio" name="pet" value="bird"> Fågel<br>
+           </div>
+       
+           <button type="submit">Skicka ansökan</button>
+       </form>
+       
+       <script src="Assignment5Part1.js"></script>
+   </body>
+   </html>
