@@ -1,0 +1,18 @@
+/*
+   @author: Elias Posluk
+   Student-id: AG3064
+   Uppgift: Assignment 5 
+   Malmö University
+   Course: DA281A Web Development II - Client - 
+   @date 05/12/2021
+   
+*/
+.moviesdb__container {
+  background-color: #fff;
+  padding: 2em;
+}
+.moviesdb__title {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #284b63;
+}

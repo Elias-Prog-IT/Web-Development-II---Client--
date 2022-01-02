@@ -1,0 +1,24 @@
+/*
+   @author: Elias Posluk
+   Student-id: AG3064
+   Uppgift: Assignment 5 
+   Malmö University
+   Course: DA281A Web Development II - Client - 
+   @date 05/12/2021
+   
+*/
+.modal__container {
+  position: absolute;
+  top: 2em;
+  right: -100%;
+  visibility: hidden;
+  background-color: #bd1e1e;
+  color: #fff;
+  padding: 0.2em 4em;
+  border-radius: 3px;
+  transition: right 0.3s ease-in-out, visibility 0.3s ease;
+}
+.modal__container.show {
+  visibility: visible;
+  right: 4em;
+}

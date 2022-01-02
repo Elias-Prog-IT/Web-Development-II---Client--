@@ -1,0 +1,39 @@
+/*
+   @author: Elias Posluk
+   Student-id: AG3064
+   Uppgift: Assignment 5 
+   Malmö University
+   Course: DA281A Web Development II - Client - 
+   @date 05/12/2021
+   
+*/
+.movie__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1;
+  align-items: center;
+  gap: 1.5em;
+  padding: 1em 2em;
+  margin: 2em 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #d9d9d9;
+}
+.movie__btn {
+  background-color: #3c6e71;
+  color: #fff;
+  border: 1px solid #3c6e71;
+  border-radius: 5px;
+  padding: 0.5em 3em;
+  transition: background 0.3s ease;
+}
+.movie__btn.edit {
+  background-color: #008000;
+}
+.movie__btn.delete {
+  background-color: #276fbf;
+}
+.movie__btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #3c6e71;
+}

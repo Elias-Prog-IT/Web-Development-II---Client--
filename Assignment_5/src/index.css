@@ -1,0 +1,28 @@
+/*
+   @author: Elias Posluk
+   Student-id: AG3064
+   Uppgift: Assignment 5 
+   Malmö University
+   Course: DA281A Web Development II - Client - 
+   @date 05/12/2021
+   
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+  color: #353535;
+}
+
+.app__container {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 5em 2em;
+  background-color: #dbdbdb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
